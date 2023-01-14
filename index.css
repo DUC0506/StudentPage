@@ -619,10 +619,27 @@ main .btn-send:hover {
 .form{
     background: #FFFFFF;
     border-radius: 5px;
-    width: 100%;
+    width: calc(100% - 312px - 10px);
     text-align: center;
+	margin-right: 10px;
     
 }
+@media only screen and (min-width : 360px) and (max-width : 760px)  
+{
+	.form{
+		width: 100%;
+		
+	}
+	
+}
+@media only screen and (min-width : 768px)  and (max-width : 1024px)  
+{
+	.form{
+		width: 100%;
+	}
+	
+}
+.user-
 .form h1{
 
     font-family: 'Proza Libre', sans-serif;
@@ -717,15 +734,15 @@ margin-bottom: 50px;
 .user-info{
 background: #FFFFFF;
 border-radius: 5px;
-margin-left: 12px;
-width: 32%;
-height: fit-content;
+width: 309px;
+height: 313px;
+
 
 }
 @media only screen and (min-width : 360px) and (max-width : 760px)  
 {
 	.user-info{
-		width: 100%;
+		width: calc(100% - 10px);
 	}
 	
 }
