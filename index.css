@@ -776,12 +776,13 @@ height: 313px;
 }
 
 
-.des-detail des-detail-name{
+.des-detail .des-detail-name{
     font-family: 'Inter', sans-serif;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 color: #000000;
+text-transform: uppercase;
 }
 .des-detail span{
     font-family: 'Inter', sans-serif;
