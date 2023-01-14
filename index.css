@@ -715,12 +715,26 @@ justify-content: center;
 margin-bottom: 50px;
 }
 .user-info{
-    background: #FFFFFF;
+background: #FFFFFF;
 border-radius: 5px;
 margin-left: 12px;
-width: 38%;
+width: 32%;
 height: fit-content;
 
+}
+@media only screen and (min-width : 360px) and (max-width : 760px)  
+{
+	.user-info{
+		width: 100%;
+	}
+	
+}
+@media only screen and (min-width : 768px)  and (max-width : 1024px)  
+{
+	.user-info{
+		width: 50%;
+	}
+	
 }
 .user-info-des img {
     height: 90px;
